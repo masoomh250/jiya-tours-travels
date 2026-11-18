@@ -1,129 +1,1611 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jiya Tours & Travels provides reliable cab, taxi, airport transfer and outstation travel services.">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Jiya Tours & Travels offers one way, round trip, airport transfer, railway transfer, local rental, outstation and inter-state cab services across Jharkhand, Bihar, West Bengal, Odisha, Chhattisgarh, Uttar Pradesh and other destinations."
+  >
+
+  <meta
+    name="keywords"
+    content="cab booking, taxi booking, Jharkhand taxi, Ranchi cab, Jamshedpur taxi, one way cab, outstation cab, inter state taxi, airport transfer, railway transfer, Jiya Tours and Travels"
+  >
+
   <title>Jiya Tours & Travels | Cab & Taxi Booking</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <a class="brand" href="#home" aria-label="Jiya Tours and Travels home">
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+
+    <div class="container nav-container">
+
+      <a href="#" class="brand">
         <span class="brand-mark">JT</span>
-        <span><strong>Jiya</strong> Tours & Travels</span>
+
+        <span class="brand-text">
+          <strong>Jiya Tours & Travels</strong>
+          <small>Travel anywhere. We'll take you there.</small>
+        </span>
       </a>
-      <nav>
+
+      <nav class="main-nav">
+
         <a href="#services">Services</a>
+
+        <a href="#routes">Popular Routes</a>
+
         <a href="#fleet">Fleet</a>
+
         <a href="#why-us">Why Us</a>
+
         <a href="#contact">Contact</a>
+
+        <a
+          href="https://wa.me/919801483637"
+          target="_blank"
+          class="nav-whatsapp"
+        >
+          WhatsApp
+        </a>
+
       </nav>
-      <a class="nav-wa" id="navWhatsapp" href="#booking">Book on WhatsApp</a>
+
     </div>
+
   </header>
 
+
+  <!-- ================= HERO ================= -->
+
   <main>
-    <section class="hero" id="home">
+
+    <section class="hero">
+
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow">🚕 Reliable • Comfortable • On Time</div>
-          <h1>Your journey,<br><span>our responsibility.</span></h1>
-          <p>Book a cab for airport transfers, local travel, one-way journeys and outstation trips. Get a quick quotation directly on WhatsApp.</p>
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            ONE WAY • ROUND TRIP • OUTSTATION • INTER-STATE
+          </span>
+
+          <h1>
+            Travel anywhere.
+            <span>We'll take you there.</span>
+          </h1>
+
+          <p>
+            Book reliable cabs for local travel, airport transfers,
+            railway stations, one-way journeys, round trips, outstation
+            travel and inter-state trips across Eastern & Central India.
+          </p>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#booking">Book a Cab</a>
-            <a class="btn btn-light" href="#booking" data-quote>Get Best Fare</a>
+
+            <a href="#booking" class="btn btn-primary">
+              Book Your Cab
+            </a>
+
+            <a
+              href="https://wa.me/919801483637?text=Hello%20Jiya%20Tours%20%26%20Travels,%20I%20want%20to%20enquire%20about%20a%20cab."
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              Chat on WhatsApp
+            </a>
+
           </div>
-          <div class="trust-row">
-            <span>✓ Easy booking</span><span>✓ Transparent quote</span><span>✓ WhatsApp support</span>
+
+          <div class="hero-points">
+
+            <span>✓ Quick Response</span>
+
+            <span>✓ Best Fare Quote</span>
+
+            <span>✓ Multiple Cab Options</span>
+
           </div>
+
         </div>
+
+
+        <!-- HERO BOOKING CARD -->
+
         <div class="hero-card">
-          <div class="hero-card-top"><span>Quick Booking</span><span class="live-dot">● Available</span></div>
-          <div class="mini-route"><div class="route-dot"></div><div><small>Pickup</small><strong>Enter your pickup</strong></div></div>
-          <div class="route-line"></div>
-          <div class="mini-route"><div class="route-dot destination"></div><div><small>Drop</small><strong>Enter your destination</strong></div></div>
-          <div class="hero-card-footer">Fill the form below and continue on WhatsApp →</div>
+
+          <div class="hero-card-header">
+
+            <span>🚕</span>
+
+            <div>
+              <h3>Get Your Cab Quote</h3>
+              <p>Tell us your travel requirement</p>
+            </div>
+
+          </div>
+
+          <a href="#booking" class="btn btn-primary full-width">
+            Get Best Fare
+          </a>
+
+          <p class="hero-card-note">
+            Your request will open directly in WhatsApp.
+          </p>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= BOOKING ================= -->
 
     <section class="booking-section" id="booking">
+
       <div class="container">
-        <div class="section-heading center">
-          <div class="eyebrow">BOOK YOUR RIDE</div>
+
+        <div class="section-heading">
+
+          <span class="eyebrow">CAB BOOKING</span>
+
           <h2>Tell us where you want to go</h2>
-          <p>Submit your details and WhatsApp will open with a ready-to-send booking request.</p>
+
+          <p>
+            Submit your travel details and get a fare quotation directly
+            on WhatsApp.
+          </p>
+
         </div>
+
 
         <div class="booking-card">
-          <div class="form-tabs" role="tablist">
-            <button class="tab active" type="button" data-trip="One Way">One Way</button>
-            <button class="tab" type="button" data-trip="Round Trip">Round Trip</button>
-            <button class="tab" type="button" data-trip="Local Rental">Local Rental</button>
-            <button class="tab" type="button" data-trip="Airport Transfer">Airport Transfer</button>
+
+          <!-- JOURNEY TYPE -->
+
+          <div class="trip-tabs">
+
+            <button
+              type="button"
+              class="trip-tab active"
+              data-trip="One Way"
+            >
+              One Way
+            </button>
+
+            <button
+              type="button"
+              class="trip-tab"
+              data-trip="Round Trip"
+            >
+              Round Trip
+            </button>
+
+            <button
+              type="button"
+              class="trip-tab"
+              data-trip="Local Rental"
+            >
+              Local Rental
+            </button>
+
+            <button
+              type="button"
+              class="trip-tab"
+              data-trip="Airport Transfer"
+            >
+              Airport Transfer
+            </button>
+
+            <button
+              type="button"
+              class="trip-tab"
+              data-trip="Railway Transfer"
+            >
+              Railway Transfer
+            </button>
+
+            <button
+              type="button"
+              class="trip-tab"
+              data-trip="Tour Package"
+            >
+              Tour Package
+            </button>
+
           </div>
+
+
           <form id="bookingForm">
-            <input type="hidden" id="tripType" value="One Way">
+
+            <input
+              type="hidden"
+              id="tripType"
+              name="tripType"
+              value="One Way"
+            >
+
+
+            <!-- ================= LOCATION ================= -->
+
+            <div class="form-section-title">
+              <span>01</span>
+              <div>
+                <strong>Journey Details</strong>
+                <small>Enter your pickup and destination</small>
+              </div>
+            </div>
+
+
             <div class="form-grid">
-              <label class="field span-2"><span>Pickup Location *</span><input id="pickup" required placeholder="e.g. Pune Airport"></label>
-              <label class="field span-2"><span>Drop Location *</span><input id="drop" required placeholder="e.g. Hinjewadi Phase 1"></label>
-              <label class="field"><span>Journey Date *</span><input id="date" type="date" required></label>
-              <label class="field"><span>Pickup Time *</span><input id="time" type="time" required></label>
-              <label class="field"><span>Cab Type</span><select id="cab"><option>Sedan</option><option>SUV</option><option>Innova</option><option>Tempo Traveller</option><option>Any suitable cab</option></select></label>
-              <label class="field"><span>Passengers</span><select id="passengers"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select></label>
-              <label class="field"><span>Your Name *</span><input id="name" required placeholder="Your full name"></label>
-              <label class="field"><span>Mobile Number *</span><input id="phone" type="tel" inputmode="numeric" required placeholder="10 digit mobile number" pattern="[0-9 +()-]{10,}"></label>
-              <label class="field span-4"><span>Special Requirement</span><textarea id="notes" rows="3" placeholder="Child seat, extra luggage, senior citizen assistance, etc."></textarea></label>
+
+
+              <!-- PICKUP STATE -->
+
+              <div class="form-group">
+
+                <label for="pickupState">
+                  Pickup State
+                </label>
+
+                <select id="pickupState" name="pickupState" required>
+
+                  <option value="">
+                    Select pickup state
+                  </option>
+
+                  <option value="Jharkhand">
+                    Jharkhand
+                  </option>
+
+                  <option value="Bihar">
+                    Bihar
+                  </option>
+
+                  <option value="West Bengal">
+                    West Bengal
+                  </option>
+
+                  <option value="Odisha">
+                    Odisha
+                  </option>
+
+                  <option value="Chhattisgarh">
+                    Chhattisgarh
+                  </option>
+
+                  <option value="Uttar Pradesh">
+                    Uttar Pradesh
+                  </option>
+
+                  <option value="Madhya Pradesh">
+                    Madhya Pradesh
+                  </option>
+
+                  <option value="Assam">
+                    Assam
+                  </option>
+
+                  <option value="Sikkim">
+                    Sikkim
+                  </option>
+
+                  <option value="Delhi NCR">
+                    Delhi NCR
+                  </option>
+
+                  <option value="Maharashtra">
+                    Maharashtra
+                  </option>
+
+                  <option value="Other State">
+                    Other State
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <!-- PICKUP CITY -->
+
+              <div class="form-group">
+
+                <label for="pickupCity">
+                  Pickup City
+                </label>
+
+                <select id="pickupCity" name="pickupCity" required>
+
+                  <option value="">
+                    Select pickup city
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <!-- PICKUP LOCATION -->
+
+              <div class="form-group full-span">
+
+                <label for="pickup">
+                  Pickup Location
+                </label>
+
+                <input
+                  type="text"
+                  id="pickup"
+                  name="pickup"
+                  placeholder="Enter pickup area, hotel, airport, station or address"
+                  required
+                >
+
+              </div>
+
+
+              <!-- DESTINATION STATE -->
+
+              <div class="form-group">
+
+                <label for="dropState">
+                  Destination State
+                </label>
+
+                <select id="dropState" name="dropState" required>
+
+                  <option value="">
+                    Select destination state
+                  </option>
+
+                  <option value="Jharkhand">
+                    Jharkhand
+                  </option>
+
+                  <option value="Bihar">
+                    Bihar
+                  </option>
+
+                  <option value="West Bengal">
+                    West Bengal
+                  </option>
+
+                  <option value="Odisha">
+                    Odisha
+                  </option>
+
+                  <option value="Chhattisgarh">
+                    Chhattisgarh
+                  </option>
+
+                  <option value="Uttar Pradesh">
+                    Uttar Pradesh
+                  </option>
+
+                  <option value="Madhya Pradesh">
+                    Madhya Pradesh
+                  </option>
+
+                  <option value="Assam">
+                    Assam
+                  </option>
+
+                  <option value="Sikkim">
+                    Sikkim
+                  </option>
+
+                  <option value="Delhi NCR">
+                    Delhi NCR
+                  </option>
+
+                  <option value="Maharashtra">
+                    Maharashtra
+                  </option>
+
+                  <option value="Other State">
+                    Other State
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <!-- DESTINATION CITY -->
+
+              <div class="form-group">
+
+                <label for="dropCity">
+                  Destination City
+                </label>
+
+                <select id="dropCity" name="dropCity" required>
+
+                  <option value="">
+                    Select destination city
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <!-- DROP LOCATION -->
+
+              <div class="form-group full-span">
+
+                <label for="drop">
+                  Drop Location
+                </label>
+
+                <input
+                  type="text"
+                  id="drop"
+                  name="drop"
+                  placeholder="Enter destination area, hotel, airport, station or address"
+                  required
+                >
+
+              </div>
+
             </div>
-            <div class="form-bottom">
-              <div class="privacy">🔒 Your details are used only to respond to your cab enquiry.</div>
-              <button class="btn btn-primary btn-large" type="submit">Continue on WhatsApp <span>→</span></button>
+
+
+            <!-- ================= TRAVEL DETAILS ================= -->
+
+            <div class="form-section-title">
+
+              <span>02</span>
+
+              <div>
+
+                <strong>Travel Information</strong>
+
+                <small>
+                  Choose your preferred date, time and cab
+                </small>
+
+              </div>
+
             </div>
+
+
+            <div class="form-grid">
+
+
+              <div class="form-group">
+
+                <label for="date">
+                  Journey Date
+                </label>
+
+                <input
+                  type="date"
+                  id="date"
+                  name="date"
+                  required
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="time">
+                  Pickup Time
+                </label>
+
+                <input
+                  type="time"
+                  id="time"
+                  name="time"
+                  required
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="cab">
+                  Preferred Cab
+                </label>
+
+                <select id="cab" name="cab" required>
+
+                  <option value="Any suitable cab">
+                    Any suitable cab
+                  </option>
+
+                  <option value="Sedan">
+                    Sedan
+                  </option>
+
+                  <option value="SUV">
+                    SUV
+                  </option>
+
+                  <option value="Innova">
+                    Toyota Innova
+                  </option>
+
+                  <option value="Innova Crysta">
+                    Innova Crysta
+                  </option>
+
+                  <option value="Tempo Traveller">
+                    Tempo Traveller
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="passengers">
+                  Passengers
+                </label>
+
+                <select id="passengers" name="passengers" required>
+
+                  <option value="1">
+                    1 Passenger
+                  </option>
+
+                  <option value="2">
+                    2 Passengers
+                  </option>
+
+                  <option value="3">
+                    3 Passengers
+                  </option>
+
+                  <option value="4">
+                    4 Passengers
+                  </option>
+
+                  <option value="5">
+                    5 Passengers
+                  </option>
+
+                  <option value="6">
+                    6 Passengers
+                  </option>
+
+                  <option value="7">
+                    7 Passengers
+                  </option>
+
+                  <option value="8">
+                    8 Passengers
+                  </option>
+
+                  <option value="9">
+                    9 Passengers
+                  </option>
+
+                  <option value="10+">
+                    10+ Passengers
+                  </option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+
+            <!-- ================= CUSTOMER DETAILS ================= -->
+
+            <div class="form-section-title">
+
+              <span>03</span>
+
+              <div>
+
+                <strong>Your Details</strong>
+
+                <small>
+                  So we can contact you with the quotation
+                </small>
+
+              </div>
+
+            </div>
+
+
+            <div class="form-grid">
+
+
+              <div class="form-group">
+
+                <label for="name">
+                  Your Name
+                </label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="phone">
+                  Mobile Number
+                </label>
+
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter 10 digit mobile number"
+                  maxlength="10"
+                  pattern="[0-9]{10}"
+                  required
+                >
+
+              </div>
+
+
+              <div class="form-group full-span">
+
+                <label for="notes">
+                  Special Requirement
+                </label>
+
+                <textarea
+                  id="notes"
+                  name="notes"
+                  rows="4"
+                  placeholder="Example: child seat, extra luggage, elderly passenger, multiple stops, sightseeing, return journey etc."
+                ></textarea>
+
+              </div>
+
+            </div>
+
+
+            <!-- ================= SUBMIT ================= -->
+
+            <div class="booking-submit">
+
+              <button
+                type="submit"
+                class="btn btn-primary submit-btn"
+              >
+                Get Best Fare on WhatsApp
+              </button>
+
+              <p>
+                Your booking enquiry will open in WhatsApp.
+                No online payment is required.
+              </p>
+
+            </div>
+
           </form>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="services" id="services">
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="services-section" id="services">
+
       <div class="container">
-        <div class="section-heading"><div class="eyebrow">OUR SERVICES</div><h2>Travel made simple</h2><p>Choose the service that fits your journey.</p></div>
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            OUR SERVICES
+          </span>
+
+          <h2>
+            Cab services for every journey
+          </h2>
+
+          <p>
+            From short local trips to long distance inter-state journeys,
+            choose the service that fits your travel plan.
+          </p>
+
+        </div>
+
+
         <div class="service-grid">
-          <article class="service-card"><div class="icon">↗</div><h3>One Way Cab</h3><p>Comfortable point-to-point travel without paying for an unnecessary return.</p></article>
-          <article class="service-card"><div class="icon">⇄</div><h3>Round Trip</h3><p>Reliable return journeys for family trips, business travel and sightseeing.</p></article>
-          <article class="service-card"><div class="icon">✈</div><h3>Airport Transfer</h3><p>Plan your airport pickup or drop with convenient doorstep service.</p></article>
-          <article class="service-card"><div class="icon">★</div><h3>Outstation Taxi</h3><p>Long-distance cab services for weekend trips, holidays and family travel.</p></article>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🚕
+            </div>
+
+            <h3>
+              One Way Cab
+            </h3>
+
+            <p>
+              Convenient one-way taxi service between cities and states.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🔄
+            </div>
+
+            <h3>
+              Round Trip
+            </h3>
+
+            <p>
+              Comfortable return journeys for family, business and leisure.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              ✈️
+            </div>
+
+            <h3>
+              Airport Transfer
+            </h3>
+
+            <p>
+              Pickup and drop service to major airports across the region.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🚉
+            </div>
+
+            <h3>
+              Railway Transfer
+            </h3>
+
+            <p>
+              Reliable pickup and drop from railway stations.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🏙️
+            </div>
+
+            <h3>
+              Local Rental
+            </h3>
+
+            <p>
+              Local cab rental for meetings, shopping, events and city travel.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🛣️
+            </div>
+
+            <h3>
+              Outstation Taxi
+            </h3>
+
+            <p>
+              Long distance travel with comfortable and flexible cab options.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🌎
+            </div>
+
+            <h3>
+              Inter-State Taxi
+            </h3>
+
+            <p>
+              Travel conveniently between Jharkhand and neighbouring states.
+            </p>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="service-icon">
+              🏞️
+            </div>
+
+            <h3>
+              Tour Packages
+            </h3>
+
+            <p>
+              Custom cab packages for sightseeing and multi-day trips.
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="fleet" id="fleet">
+
+    <!-- ================= POPULAR ROUTES ================= -->
+
+    <section class="routes-section" id="routes">
+
       <div class="container">
-        <div class="section-heading center"><div class="eyebrow">OUR FLEET</div><h2>Choose your comfort</h2><p>Vehicle availability and final fare are confirmed on WhatsApp.</p></div>
-        <div class="fleet-grid">
-          <article class="fleet-card"><div class="car-visual sedan">🚗</div><div><h3>Sedan</h3><p>Up to 4 passengers</p><span>Dzire / Etios or similar</span></div></article>
-          <article class="fleet-card"><div class="car-visual suv">🚙</div><div><h3>SUV</h3><p>Up to 6 passengers</p><span>Carens / Ertiga or similar</span></div></article>
-          <article class="fleet-card"><div class="car-visual innova">🚐</div><div><h3>Innova</h3><p>Comfortable family travel</p><span>Innova / Innova Crysta</span></div></article>
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            POPULAR ROUTES
+          </span>
+
+          <h2>
+            Popular cab routes
+          </h2>
+
+          <p>
+            Some of the popular routes customers can book with Jiya Tours
+            & Travels.
+          </p>
+
         </div>
+
+
+        <div class="route-grid">
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Jamshedpur
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Dhanbad
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Deoghar
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Bokaro
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Hazaribagh
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Giridih
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand</span>
+
+            <strong>
+              Ranchi ↔ Dumka
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand ↔ West Bengal</span>
+
+            <strong>
+              Ranchi ↔ Kolkata
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand ↔ Bihar</span>
+
+            <strong>
+              Ranchi ↔ Patna
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand ↔ Odisha</span>
+
+            <strong>
+              Ranchi ↔ Bhubaneswar
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand ↔ Chhattisgarh</span>
+
+            <strong>
+              Ranchi ↔ Raipur
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Jharkhand ↔ Uttar Pradesh</span>
+
+            <strong>
+              Ranchi ↔ Varanasi
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>West Bengal</span>
+
+            <strong>
+              Jamshedpur ↔ Kolkata
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Odisha</span>
+
+            <strong>
+              Jamshedpur ↔ Bhubaneswar
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>Bihar</span>
+
+            <strong>
+              Dhanbad ↔ Patna
+            </strong>
+
+          </a>
+
+
+          <a href="#booking" class="route-card">
+
+            <span>West Bengal</span>
+
+            <strong>
+              Deoghar ↔ Kolkata
+            </strong>
+
+          </a>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="why" id="why-us">
-      <div class="container why-grid">
-        <div><div class="eyebrow">WHY JIYA TOURS & TRAVELS</div><h2>Personal service. Simple booking.</h2><p>We keep the booking process straightforward. Tell us your route and requirements, and our team will respond with availability and a quotation.</p></div>
-        <div class="why-list"><div><b>01</b><span><strong>Quick response</strong><small>Send your enquiry directly to WhatsApp.</small></span></div><div><b>02</b><span><strong>Clear quotation</strong><small>Know the fare before confirming.</small></span></div><div><b>03</b><span><strong>Flexible travel</strong><small>Local, airport and outstation options.</small></span></div></div>
+
+    <!-- ================= DESTINATIONS ================= -->
+
+    <section class="destinations-section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            DESTINATIONS
+          </span>
+
+          <h2>
+            Travel across Eastern & Central India
+          </h2>
+
+        </div>
+
+
+        <div class="destination-columns">
+
+
+          <div class="destination-card">
+
+            <h3>
+              Jharkhand
+            </h3>
+
+            <p>
+              Ranchi • Jamshedpur • Dhanbad • Bokaro • Deoghar •
+              Hazaribagh • Giridih • Dumka • Ramgarh • Chaibasa •
+              Gumla • Simdega • Medininagar • Latehar • Netarhat
+            </p>
+
+          </div>
+
+
+          <div class="destination-card">
+
+            <h3>
+              Bihar
+            </h3>
+
+            <p>
+              Patna • Bodh Gaya • Gaya • Rajgir • Nalanda • Vaishali •
+              Muzaffarpur • Bhagalpur
+            </p>
+
+          </div>
+
+
+          <div class="destination-card">
+
+            <h3>
+              West Bengal
+            </h3>
+
+            <p>
+              Kolkata • Durgapur • Asansol • Siliguri • Darjeeling •
+              Digha • Kharagpur
+            </p>
+
+          </div>
+
+
+          <div class="destination-card">
+
+            <h3>
+              Odisha
+            </h3>
+
+            <p>
+              Bhubaneswar • Puri • Konark • Cuttack • Rourkela •
+              Sambalpur • Chilika
+            </p>
+
+          </div>
+
+
+          <div class="destination-card">
+
+            <h3>
+              Chhattisgarh
+            </h3>
+
+            <p>
+              Raipur • Bilaspur • Durg • Bhilai • Jagdalpur
+            </p>
+
+          </div>
+
+
+          <div class="destination-card">
+
+            <h3>
+              Uttar Pradesh
+            </h3>
+
+            <p>
+              Varanasi • Prayagraj • Ayodhya • Gorakhpur • Lucknow •
+              Kanpur
+            </p>
+
+          </div>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="cta" id="contact"><div class="container cta-inner"><div><div class="eyebrow">READY TO TRAVEL?</div><h2>Get your cab quotation today.</h2><p>No complicated registration. Just send your journey details.</p></div><a class="btn btn-white" id="bottomWhatsapp" href="#booking">Request a Quote on WhatsApp</a></div></section>
+
+    <!-- ================= FLEET ================= -->
+
+    <section class="fleet-section" id="fleet">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            OUR FLEET
+          </span>
+
+          <h2>
+            Choose the right cab for your journey
+          </h2>
+
+        </div>
+
+
+        <div class="fleet-grid">
+
+
+          <div class="fleet-card">
+
+            <div class="fleet-icon">
+              🚗
+            </div>
+
+            <h3>
+              Sedan
+            </h3>
+
+            <p>
+              Comfortable option for individuals, couples and small families.
+            </p>
+
+            <span>
+              Up to 4 passengers
+            </span>
+
+          </div>
+
+
+          <div class="fleet-card">
+
+            <div class="fleet-icon">
+              🚙
+            </div>
+
+            <h3>
+              SUV
+            </h3>
+
+            <p>
+              Spacious option for families and longer journeys.
+            </p>
+
+            <span>
+              Up to 6 passengers
+            </span>
+
+          </div>
+
+
+          <div class="fleet-card">
+
+            <div class="fleet-icon">
+              🚐
+            </div>
+
+            <h3>
+              Innova / Crysta
+            </h3>
+
+            <p>
+              Premium and comfortable option for family and outstation travel.
+            </p>
+
+            <span>
+              Up to 6 passengers
+            </span>
+
+          </div>
+
+
+          <div class="fleet-card">
+
+            <div class="fleet-icon">
+              🚌
+            </div>
+
+            <h3>
+              Tempo Traveller
+            </h3>
+
+            <p>
+              Ideal for groups, family tours and multi-day trips.
+            </p>
+
+            <span>
+              Larger groups
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= WHY US ================= -->
+
+    <section class="why-section" id="why-us">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            WHY JIYA TOURS & TRAVELS
+          </span>
+
+          <h2>
+            Simple booking. Clear communication.
+          </h2>
+
+          <p>
+            We keep the booking process simple so you can focus on your journey.
+          </p>
+
+        </div>
+
+
+        <div class="why-grid">
+
+
+          <div class="why-card">
+
+            <span>
+              ⚡
+            </span>
+
+            <h3>
+              Quick Response
+            </h3>
+
+            <p>
+              Send your requirement through WhatsApp and receive a response
+              regarding your cab requirement.
+            </p>
+
+          </div>
+
+
+          <div class="why-card">
+
+            <span>
+              💰
+            </span>
+
+            <h3>
+              Fare Quotation
+            </h3>
+
+            <p>
+              Share your complete journey details and get a quotation based
+              on your travel requirement.
+            </p>
+
+          </div>
+
+
+          <div class="why-card">
+
+            <span>
+              🗺️
+            </span>
+
+            <h3>
+              Multiple Destinations
+            </h3>
+
+            <p>
+              Book journeys within cities, between cities and across states.
+            </p>
+
+          </div>
+
+
+          <div class="why-card">
+
+            <span>
+              📱
+            </span>
+
+            <h3>
+              WhatsApp Booking
+            </h3>
+
+            <p>
+              No complicated registration or payment process. Start your
+              enquiry directly through WhatsApp.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta-section">
+
+      <div class="container cta-content">
+
+        <div>
+
+          <span class="eyebrow">
+            READY TO TRAVEL?
+          </span>
+
+          <h2>
+            Tell us your route and we'll help you plan the journey.
+          </h2>
+
+        </div>
+
+
+        <a href="#booking" class="btn btn-primary">
+          Get Cab Quote
+        </a>
+
+      </div>
+
+    </section>
+
   </main>
 
-  <footer><div class="container footer-grid"><div><a class="brand" href="#home"><span class="brand-mark">JT</span><span><strong>Jiya</strong> Tours & Travels</span></a><p>Cab & taxi booking made easy.</p></div><div><strong>Quick Links</strong><a href="#booking">Book a Cab</a><a href="#services">Services</a><a href="#fleet">Fleet</a></div><div><strong>Contact</strong><a id="footerWhatsapp" href="#booking">WhatsApp</a><a href="tel:+910000000000">Call Us</a></div></div><div class="copyright">© <span id="year"></span> Jiya Tours & Travels. All rights reserved.</div></footer>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="site-footer" id="contact">
+
+    <div class="container footer-grid">
+
+
+      <div class="footer-brand">
+
+        <div class="brand">
+
+          <span class="brand-mark">
+            JT
+          </span>
+
+          <span class="brand-text">
+
+            <strong>
+              Jiya Tours & Travels
+            </strong>
+
+            <small>
+              Travel anywhere. We'll take you there.
+            </small>
+
+          </span>
+
+        </div>
+
+
+        <p>
+          One way, round trip, outstation, airport, railway and inter-state
+          cab services across Eastern & Central India.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h4>
+          Services
+        </h4>
+
+        <a href="#booking">
+          One Way Cab
+        </a>
+
+        <a href="#booking">
+          Round Trip
+        </a>
+
+        <a href="#booking">
+          Airport Transfer
+        </a>
+
+        <a href="#booking">
+          Outstation Cab
+        </a>
+
+        <a href="#booking">
+          Tour Package
+        </a>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h4>
+          Quick Links
+        </h4>
+
+        <a href="#services">
+          Services
+        </a>
+
+        <a href="#routes">
+          Popular Routes
+        </a>
+
+        <a href="#fleet">
+          Fleet
+        </a>
+
+        <a href="#why-us">
+          Why Us
+        </a>
+
+        <a href="#booking">
+          Book a Cab
+        </a>
+
+      </div>
+
+
+      <div class="footer-contact">
+
+        <h4>
+          Contact
+        </h4>
+
+        <a
+          href="https://wa.me/919801483637"
+          target="_blank"
+        >
+          WhatsApp: +91 98014 83637
+        </a>
+
+        <a href="tel:+919801483637">
+          Call: +91 98014 83637
+        </a>
+
+        <p>
+          Booking enquiries are handled through WhatsApp.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p>
+          © <span id="currentYear"></span>
+          Jiya Tours & Travels. All rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= WHATSAPP FLOATING BUTTON ================= -->
+
+  <a
+    href="https://wa.me/919801483637?text=Hello%20Jiya%20Tours%20%26%20Travels,%20I%20want%20to%20book%20a%20cab."
+    target="_blank"
+    class="whatsapp-float"
+    aria-label="Chat with Jiya Tours & Travels on WhatsApp"
+  >
+    WhatsApp
+  </a>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
 
   <script src="script.js"></script>
+
 </body>
 </html>
