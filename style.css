@@ -1237,3 +1237,292 @@ p {
   }
 
 }
+/* =========================================================
+   FARE & RATE CARD
+   ========================================================= */
+
+.fare-section {
+  padding: 90px 0;
+  background: #f8fafc;
+}
+
+.fare-card {
+  background: #ffffff;
+  border: 1px solid #e4e7ec;
+  border-radius: 22px;
+  padding: 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06);
+}
+
+.fare-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.fare-card-header > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.fare-card-header h3 {
+  margin: 0 0 5px;
+  font-size: 19px;
+}
+
+.fare-card-header p {
+  margin: 0;
+  font-size: 12px;
+  color: #667085;
+}
+
+.fare-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #fff7e6;
+  font-size: 22px;
+}
+
+.fare-badge {
+  padding: 7px 12px;
+  border-radius: 20px;
+  background: #fff7e6;
+  color: #b45309;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+/* TABLE */
+
+.fare-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.fare-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fare-table th {
+  padding: 14px 16px;
+  background: #f8fafc;
+  color: #667085;
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fare-table td {
+  padding: 16px;
+  border-bottom: 1px solid #eaecf0;
+  color: #344054;
+  font-size: 14px;
+}
+
+.fare-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.fare-table tbody tr:hover {
+  background: #fffaf0;
+}
+
+.fare-table td:nth-child(2),
+.fare-table td:nth-child(3) {
+  color: #b45309;
+  font-weight: 800;
+}
+
+
+/* BOOK BUTTON */
+
+.fare-book-btn {
+  display: inline-flex;
+  padding: 7px 12px;
+  border-radius: 8px;
+  background: #101828;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.fare-book-btn:hover {
+  background: #f59e0b;
+  color: #111827;
+}
+
+
+/* VEHICLE RATE CARDS */
+
+.vehicle-rate-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.vehicle-rate {
+  display: flex;
+  flex-direction: column;
+  min-height: 165px;
+  padding: 21px;
+  border: 1px solid #e4e7ec;
+  border-radius: 16px;
+  background: #ffffff;
+  transition: 0.25s ease;
+}
+
+.vehicle-rate:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(16, 24, 40, 0.08);
+}
+
+.vehicle-rate-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #fff7e6;
+  margin-bottom: 17px;
+}
+
+.vehicle-rate strong {
+  display: block;
+  color: #101828;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.vehicle-rate small {
+  display: block;
+  margin-top: 4px;
+  color: #667085;
+  font-size: 11px;
+}
+
+.vehicle-rate b {
+  display: block;
+  margin-top: auto;
+  color: #b45309;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.vehicle-rate b span {
+  font-size: 12px;
+  color: #667085;
+  margin-left: 2px;
+}
+
+
+/* CRYSTA HIGHLIGHT */
+
+.featured-rate {
+  border: 2px solid #f59e0b;
+  background: linear-gradient(145deg, #fffaf0, #ffffff);
+}
+
+.featured-rate b {
+  color: #d97706;
+}
+
+
+/* WHATSAPP FARE CTA */
+
+.fare-note {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 25px;
+  border-radius: 16px;
+  background: #101828;
+  color: #ffffff;
+}
+
+.fare-note strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.fare-note span {
+  color: #98a2b3;
+  font-size: 12px;
+}
+
+.fare-note .btn {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+  .vehicle-rate-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fare-note {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fare-note .btn {
+    margin-left: 0;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .fare-section {
+    padding: 65px 0;
+  }
+
+  .fare-card {
+    padding: 17px;
+    border-radius: 18px;
+  }
+
+  .fare-card-header {
+    align-items: flex-start;
+  }
+
+  .fare-badge {
+    display: none;
+  }
+
+  .fare-table {
+    min-width: 620px;
+  }
+
+  .vehicle-rate-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .vehicle-rate {
+    min-height: 145px;
+    padding: 17px;
+  }
+
+  .vehicle-rate b {
+    font-size: 21px;
+  }
+
+}
