@@ -1526,3 +1526,642 @@ p {
   }
 
 }
+
+/* =========================================================
+   ZIA TOURS & TRAVELS
+   FINAL MOBILE + RESPONSIVE OPTIMIZATION
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   GENERAL MOBILE IMPROVEMENTS
+   --------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+  .container {
+    width: min(100% - 32px, 720px);
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  .section-heading {
+    margin-bottom: 26px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(24px, 5vw, 32px);
+    line-height: 1.15;
+  }
+
+  .section-heading p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   HERO
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .hero {
+    padding: 58px 0 62px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 35px;
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 11vw, 58px);
+    line-height: 0.98;
+    letter-spacing: -1.8px;
+  }
+
+  .hero p {
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .hero-actions .btn {
+    min-height: 44px;
+  }
+
+  .hero-card {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   BOOKING FORM
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .booking {
+    padding: 55px 0;
+  }
+
+  .booking-card {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .booking-tabs {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+
+  .booking-tabs button {
+    min-width: 100px;
+    min-height: 38px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .booking-grid {
+    grid-template-columns: 1fr !important;
+    gap: 15px;
+  }
+
+  .booking-section {
+    padding: 13px 0;
+  }
+
+  .booking-section-title {
+    font-size: 13px;
+  }
+
+  .booking label {
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+
+  .booking input,
+  .booking select,
+  .booking textarea {
+    width: 100%;
+    min-height: 43px;
+    padding: 10px 12px;
+    font-size: 13px;
+    border-radius: 9px;
+  }
+
+  .booking textarea {
+    min-height: 90px;
+  }
+
+  .booking-submit,
+  .booking .btn {
+    width: 100%;
+    min-height: 46px;
+    font-size: 12px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   SERVICES
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .services {
+    padding: 60px 0;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px;
+  }
+
+  .service-card {
+    min-height: 150px;
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .service-card h3 {
+    font-size: 13px;
+    line-height: 1.25;
+  }
+
+  .service-card p {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   POPULAR ROUTES
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .routes,
+  .popular-routes {
+    padding: 60px 0;
+  }
+
+  .route-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 9px;
+  }
+
+  .route-card {
+    min-height: 92px;
+    padding: 13px;
+    border-radius: 13px;
+  }
+
+  .route-card span {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+
+  .route-card strong {
+    display: block;
+    font-size: 11px;
+    line-height: 1.35;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   DESTINATIONS
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .destinations {
+    padding: 60px 0;
+  }
+
+  .destination-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px;
+  }
+
+  .destination-card {
+    padding: 14px;
+    border-radius: 13px;
+  }
+
+  .destination-card h3 {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .destination-card p {
+    font-size: 9px;
+    line-height: 1.5;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   FARE TABLE
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .fare-section {
+    padding: 60px 0;
+  }
+
+  .fare-card {
+    padding: 16px;
+    border-radius: 17px;
+    margin-bottom: 15px;
+  }
+
+  .fare-card-header {
+    gap: 10px;
+    margin-bottom: 17px;
+  }
+
+  .fare-card-header h3 {
+    font-size: 14px;
+    line-height: 1.25;
+  }
+
+  .fare-card-header p {
+    font-size: 10px;
+  }
+
+  .fare-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .fare-badge {
+    font-size: 8px;
+    padding: 5px 8px;
+  }
+
+  /*
+     Keep table readable by allowing horizontal scrolling
+     instead of shrinking the prices into unreadable text.
+  */
+
+  .fare-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+  }
+
+  .fare-table {
+    min-width: 580px;
+  }
+
+  .fare-table th {
+    padding: 11px 10px;
+    font-size: 9px;
+  }
+
+  .fare-table td {
+    padding: 12px 10px;
+    font-size: 11px;
+  }
+
+  .fare-table td strong {
+    font-size: 11px;
+  }
+
+  .fare-book-btn {
+    padding: 7px 10px;
+    font-size: 9px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   VEHICLE RATE CARDS
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .vehicle-rate-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 9px;
+  }
+
+  .vehicle-rate {
+    min-height: 145px;
+    padding: 15px;
+    border-radius: 14px;
+  }
+
+  .vehicle-rate-icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .vehicle-rate strong {
+    font-size: 12px;
+  }
+
+  .vehicle-rate small {
+    font-size: 9px;
+    line-height: 1.35;
+  }
+
+  .vehicle-rate b {
+    margin-top: auto;
+    font-size: 21px;
+  }
+
+  .vehicle-rate b span {
+    font-size: 10px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   FARE WHATSAPP CTA
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .fare-note {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 18px;
+    border-radius: 15px;
+  }
+
+  .fare-note strong {
+    font-size: 13px;
+  }
+
+  .fare-note span {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .fare-note .btn {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   FLEET
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .fleet {
+    padding: 60px 0;
+  }
+
+  .fleet-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px;
+  }
+
+  .fleet-card {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .fleet-card h3 {
+    font-size: 13px;
+  }
+
+  .fleet-card p,
+  .fleet-card span {
+    font-size: 9px;
+    line-height: 1.45;
+  }
+
+  .car-visual {
+    min-height: 65px;
+    font-size: 30px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   WHY US
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .why {
+    padding: 60px 0;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px;
+  }
+
+  .why h2 {
+    font-size: 27px;
+    line-height: 1.1;
+  }
+
+  .why-list {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+
+  .why-list > div {
+    padding: 16px;
+    border-radius: 13px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   CTA
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .cta {
+    padding: 55px 0;
+  }
+
+  .cta-inner {
+    grid-template-columns: 1fr !important;
+    gap: 22px;
+  }
+
+  .cta h2 {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+
+  .cta .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   FOOTER
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  footer {
+    padding: 45px 0 25px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 28px 20px;
+  }
+
+  .footer-grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .footer-grid a,
+  .footer-grid p {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .footer-grid strong {
+    font-size: 11px;
+  }
+
+  .copyright {
+    margin-top: 25px;
+    font-size: 9px;
+    text-align: center;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   SMALL PHONES
+   --------------------------------------------------------- */
+
+@media (max-width: 420px) {
+
+  .container {
+    width: min(100% - 24px, 390px);
+  }
+
+  .hero h1 {
+    font-size: 39px;
+  }
+
+  .service-grid,
+  .route-grid,
+  .destination-grid,
+  .fleet-grid,
+  .vehicle-rate-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .service-card,
+  .route-card,
+  .destination-card,
+  .fleet-card,
+  .vehicle-rate {
+    padding: 12px;
+  }
+
+  .service-card h3,
+  .fleet-card h3 {
+    font-size: 11px;
+  }
+
+  .route-card strong {
+    font-size: 10px;
+  }
+
+  .vehicle-rate b {
+    font-size: 19px;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   TOUCH FRIENDLY BUTTONS
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  a.btn,
+  button,
+  .fare-book-btn {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  a.btn {
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   PREVENT HORIZONTAL PAGE SCROLL
+   --------------------------------------------------------- */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
