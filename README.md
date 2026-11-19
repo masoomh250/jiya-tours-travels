@@ -1,4 +1,4 @@
-# Jiya Tours & Travels
+# Zia Tours & Travels
 
 Free static cab booking website with WhatsApp enquiry/quotation flow.
 
