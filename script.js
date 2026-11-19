@@ -1,5 +1,5 @@
 /* =========================================================
-   JIYA TOURS & TRAVELS
+   ZIA TOURS & TRAVELS
    Booking & WhatsApp Script
    ========================================================= */
 
@@ -496,7 +496,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 `🚕 *NEW CAB BOOKING ENQUIRY*
 
-*Jiya Tours & Travels*
+*Zia Tours & Travels*
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -543,7 +543,7 @@ ${specialRequirement}
 Please share the best available fare for this journey.
 
 Thank you,
-Jiya Tours & Travels`;
+Zia Tours & Travels`;
 
 
       /* ---------------------------------------------------
